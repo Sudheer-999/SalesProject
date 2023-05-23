@@ -1,0 +1,480 @@
+.main-container {
+  display: flex;
+  height: 100%;
+  background-color: #f4f5fa;
+}
+
+.sidebar-section {
+  width: 17%;
+}
+
+.main-body {
+  width: 73%;
+  padding: 10px 150px;
+}
+
+.search-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(182, 183, 185);
+  width: 240px;
+  height: 32px;
+  padding: 0px 10px;
+  border-radius: 20px;
+  color: rgb(120, 122, 124);
+}
+
+.search-input {
+  background-color: #f4f5fa;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.profile-pic {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  font-family: "Wix Madefor Display", sans-serif;
+}
+
+.trophy-image {
+  width: 100px;
+}
+
+.winning-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  width: 35%;
+  padding: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.statistics-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 59%;
+  padding: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  font-family: "Wix Madefor Display", sans-serif;
+  border-radius: 4px;
+}
+
+.trophy-image-con {
+  align-self: flex-end;
+}
+
+.win-head {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+}
+
+.win-desc {
+  font-size: 12px;
+  margin: 0;
+  padding-top: 5px;
+  color: gray;
+}
+
+.sales-price {
+  font-family: "Wix Madefor Display", sans-serif;
+  color: #9255fa;
+  font-weight: 700;
+}
+
+.view-sales-btn {
+  background-color: #9255fa;
+  border: none;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 600;
+  height: 24px;
+  width: 90px;
+  border-radius: 5px;
+  font-family: "Wix Madefor Display", sans-serif;
+}
+
+.content-container {
+  margin-top: 30px;
+}
+
+.first-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.statistics-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon-body {
+  background-color: #9255fa;
+  color: #ffffff;
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.stat-card {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  font-size: 11px;
+  margin-bottom: 4px;
+}
+
+.item-price {
+  font-weight: 500;
+}
+
+.stat-main-head {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 5px;
+  font-weight: 600;
+}
+
+.stat-cards {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.growth-desc {
+  font-size: 12px;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 10px;
+}
+
+.growth {
+  font-weight: 600;
+}
+
+.green {
+  background-color: #53ce01;
+}
+
+.orange {
+  background-color: #ffb002;
+}
+
+.sky-blue {
+  background-color: #36ade5;
+}
+
+.overview-card {
+  background-color: #ffffff;
+  width: 35%;
+  padding: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 4px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.total-card {
+  background-color: #ffffff;
+  width: 28%;
+  padding: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 4px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.graph {
+  width: 100%;
+}
+
+.compare {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.percent {
+  font-size: 24px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.performance {
+  font-size: 13px;
+  width: 70%;
+}
+
+.details-button {
+  width: 100%;
+  border: none;
+  background-color: #9255fa;
+  color: #ffffff;
+  height: 30px;
+  border-radius: 4px;
+}
+
+.total-earnings {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.rise {
+  display: flex;
+  align-content: center;
+  font-size: 12px;
+  color: #53ce01;
+  font-weight: 600;
+}
+
+.total-graph {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.features-card {
+  width: 29%;
+  margin: 0;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 0;
+}
+
+.feature-block {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-icon {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.small-card {
+  width: 40%;
+  background-color: #ffffff;
+  padding: 10px 11px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 4px;
+  margin-right: 16px;
+  margin-bottom: 20px;
+}
+
+.total-price {
+  margin: 0;
+  padding: 5px 0px;
+  font-size: 13px;
+  margin-top: 7px;
+  font-weight: 600;
+}
+
+.f-price {
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.f-box {
+  display: flex;
+}
+
+.f-percent {
+  color: #53ce01;
+  font-size: 13px;
+}
+
+.f-title {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.beta {
+  margin-right: 0px;
+}
+
+.end-percent {
+  font-size: 10px;
+  color: #53ce01;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.end-box {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.initial {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #53ce01;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.end-left {
+  display: flex;
+  align-items: center;
+}
+
+.country {
+  font-size: 10px;
+}
+
+.end-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.end-price {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.end-txt {
+  font-size: 11px;
+  color: gray;
+}
+
+.end-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.final-container {
+  width: 60%;
+  background-color: #ffffff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 4px;
+  margin-top: 20px;
+  display: flex;
+  padding: 10px 0px;
+}
+
+.xx {
+  margin-top: 0px;
+  width: 50%;
+  margin-right: 0px;
+  box-shadow: none;
+}
+
+.zz {
+  border-right: 1px solid rgb(177, 175, 175);
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.uk {
+  background-color: #ff5354;
+}
+
+.in {
+  background-color: #f7ce50;
+}
+
+.ss {
+  margin-bottom: 0px;
+}
+
+.ff-icon {
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.brown {
+  background-color: #8a8d92;
+}
+
+.voilet {
+  background-color: #9255fa;
+}
+
+.gumroad {
+  width: 33px;
+}
+
+.mastercard {
+  width: 28px;
+  margin-right: 10px;
+}
+
+.account {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.acnt {
+  font-size: 10px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.aa {
+  margin-bottom: 10px;
+}
+
+.view {
+  font-size: 12px;
+}
+
+.gr {
+  color: #53ce01;
+}
+
+.rd {
+  color: #ff5354;
+}
